@@ -1,0 +1,26 @@
+{
+  "name": "clothing-app",
+  "version": "1.0.0",
+  "description": "Clothing App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Akash kashyap",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  }
+}
